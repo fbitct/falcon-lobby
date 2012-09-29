@@ -1,0 +1,32 @@
+FalconLobby
+
+SERVER REVISION HISTORY
+================================================================================
+2010.03.07
+- added Google analytics tracking
+- removed Chat link
+
+2006.08.29
+- added db_close() => mysql_close() for explicit closing of connection var and
+called this in addition to setting the $db_conn var to NULL at the end of the
+scripts which use db.php
+
+2006.08.19
+- server now pushes all fields to the client to allow for adding of the console
+
+2006.08.04
+- updated for new release
+
+2006.03.16
+- home page URLs now validated; if initial validation fails, the server attempts
+pre-pending the http:// itself and revalidates, if that fails too, it returns
+an error back to the client
+- when a server first goes up, the IP is used to query for geographic location
+information which is now also displayed in the games list
+
+2006.03.12
+- active games page now also displays the total # of registered games
+- added Notes/Troubleshooting Tips/etc section to the home page
+
+2006.03.11
+- initial release

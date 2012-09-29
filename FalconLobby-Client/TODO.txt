@@ -1,0 +1,6 @@
+- check string lengths when initializing PhoneBookRecord structures
+- filter input fields for allowable length, invalid chars, etc.; server side and client side (strip out newlines for example on fields which come back via get active games)
+- add check for latest version feature
+- add feedback feature
+- URLs used when specifying public info must be complete URLs, i.e. they must include the http:// and teamspeak:// or else the HTML viewer dialog will assume they're relative to the current page and they wont work
+- phone book merge sometimes leaves inactive entries

@@ -1,0 +1,16 @@
+REVISION HISTORY
+================================================================================
+v1.0, 2006.03.11
+- initial release
+
+v1.1, 2006.08.04
+- fixed handle/memory leak which could cause active servers to eventually drop
+  from the list, despite still being active.  this could also cause the client
+  to stop being able to download the active server list.  the fix was to replace
+  the internal HTML viewer used for the "View Active Servers" tray icon menu
+  with a call to view the URL using the user's default browser.  this issue
+  wouldn't occur if you just ran FalconLobby and never picked that item from
+  the tray icon menu; anyway, it should be fixed now.
+- the server publishing dialog wasn't always updating the checkbox correctly
+  based on the settings.ini file value.  the app logic used the settings.ini
+  file value, its just the UI that didn't correctly display the check.

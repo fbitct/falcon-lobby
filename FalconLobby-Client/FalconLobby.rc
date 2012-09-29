@@ -1,0 +1,302 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#include ""res\\FalconLobby.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\FalconLobby.ico"
+IDI_TRAY_ICON           ICON                    "res\\trayicon.ico"
+IDI_TRAY_ICON_LIT       ICON                    "res\\trayicon_lit.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 281, 57
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "About FalconLobby"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDI_TRAY_ICON,IDC_ABICON,11,17,20,20
+    LTEXT           "TITLE",IDC_TITLE,40,10,129,8,SS_NOPREFIX
+    LTEXT           "CREDITS",IDC_CREDITS,40,26,234,24
+    DEFPUSHBUTTON   "OK",IDOK,224,7,50,16,WS_GROUP
+END
+
+IDD_FALCONLOBBY_DIALOG DIALOGEX 0, 0, 321, 202
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW | WS_EX_CLIENTEDGE | WS_EX_APPWINDOW
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+END
+
+IDD_REGISTERGAMESERVER DIALOGEX 0, 0, 185, 62
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION
+CAPTION "Register Game Server"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Register Server!",IDC_REGISTER,57,41,65,14
+    PUSHBUTTON      "Cancel",IDCANCEL,128,41,50,14
+    EDITTEXT        IDC_NAME,7,19,171,14,ES_AUTOHSCROLL
+    LTEXT           "Game Server Name",IDC_STATIC,7,7,62,8
+    DEFPUSHBUTTON   "Button1",IDC_BUTTON1,5,36,50,14,NOT WS_VISIBLE
+END
+
+IDD_SERVER DIALOGEX 0, 0, 291, 99
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Publish My Game Server"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "Game Server Name",IDC_STATIC,9,21,62,8
+    LTEXT           "Static",IDC_NAME,75,21,209,8
+    LTEXT           "Game Server Token",IDC_STATIC,7,35,64,8
+    LTEXT           "Static",IDC_TOKEN,75,35,209,8
+    CONTROL         "Automatically Publish Game Server State to Active Game List",
+                    IDC_AUTOPUB,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,7,
+                    215,10
+    CTEXT           "Make sure to backup your game server name and token (found in the settings file).  These can not be retrieved if lost.",
+                    IDC_BACKUPWARNING,7,49,277,19
+    PUSHBUTTON      "Set Game Server Public Info",IDC_SETPUBLICINFO,7,78,101,
+                    14
+    PUSHBUTTON      "Register a New Game Server",IDC_REGISTERNEWGAMESERVER,
+                    179,78,105,14
+END
+
+IDD_SERVER_PUBLICINFO DIALOGEX 0, 0, 254, 174
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Game Server Public Info"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDC_OK,143,153,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,197,153,50,14
+    EDITTEXT        IDC_DESC,86,7,161,81,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_AUTOHSCROLL | ES_WANTRETURN
+    LTEXT           "Description",IDC_STATIC,46,8,36,8
+    LTEXT           "Home Page URL",IDC_STATIC,30,95,52,8
+    LTEXT           "Voice Comms URL\n(TeamSpeak/Ventrilo)",IDC_STATIC,12,
+                    109,69,17
+    EDITTEXT        IDC_HOMEPAGE,86,92,161,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_VOICECOMM,86,110,161,14,ES_AUTOHSCROLL
+    LTEXT           "You must specify a complete URL, i.e. make sure to include the http:// or teamspeak://",
+                    IDC_STATIC,86,130,156,20
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,1,0,0
+ PRODUCTVERSION 1,1,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904e4"
+        BEGIN
+            VALUE "CompanyName", "http://www.falconlobby.com"
+            VALUE "FileDescription", "FalconLobby"
+            VALUE "FileVersion", "1.1.0.0"
+            VALUE "InternalName", "FalconLobby.exe"
+            VALUE "LegalCopyright", "Dave ""coder1024"" Calkins (coder1024@gmail.com)"
+            VALUE "OriginalFilename", "FalconLobby.exe"
+            VALUE "ProductName", "FalconLobby"
+            VALUE "ProductVersion", "1.1.0.0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1252
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 274
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 50
+    END
+
+    IDD_FALCONLOBBY_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 314
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 195
+    END
+
+    IDD_REGISTERGAMESERVER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 178
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 55
+    END
+
+    IDD_SERVER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 284
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 92
+    END
+
+    IDD_SERVER_PUBLICINFO, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 247
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 167
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_POPUP_MENU MENU 
+BEGIN
+    POPUP "TRAY"
+    BEGIN
+        MENUITEM "View Active Game Servers...", ID_TRAY_VIEWACTIVEGAMESERVERS
+
+        MENUITEM "Retrieve Active Game Servers", ID_TRAY_MANUALRETRIEVE
+        MENUITEM "Automatically Retrieve Active Game Servers", 
+                                                ID_TRAY_AUTORETRIEVE
+        MENUITEM SEPARATOR
+        MENUITEM "Publish My Game Server...",   ID_TRAY_PUBLISHMYGAMESERVER
+        MENUITEM SEPARATOR
+        MENUITEM "Edit Settings File...",       ID_TRAY_EDITSETTINGSFILE
+        MENUITEM SEPARATOR
+        MENUITEM "FalconLobby Home Page...",    ID_TRAY_FALCONLOBBYHOMEPAGE
+        MENUITEM "About...",                    ID_TRAY_ABOUT
+        MENUITEM "Help...",                     ID_TRAY_HELP
+        MENUITEM "Exit",                        ID_TRAY_EXIT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_ABOUTBOX            "&About FalconLobby..."
+    IDP_SOCKETS_INIT_FAILED "Windows sockets initialization failed."
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#include "res\FalconLobby.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

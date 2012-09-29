@@ -1,0 +1,269 @@
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/46221/FalconLobby-Client
+END
+stdafx.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/46221/FalconLobby-Client/stdafx.h
+END
+FalconLobby.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/46221/FalconLobby-Client/FalconLobby.h
+END
+ServerDlg.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/46221/FalconLobby-Client/ServerDlg.h
+END
+Mutex.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/46221/FalconLobby-Client/Mutex.cpp
+END
+TODO.txt
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/46221/FalconLobby-Client/TODO.txt
+END
+installer.nsi
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/46221/FalconLobby-Client/installer.nsi
+END
+RegisterGameServer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/46221/FalconLobby-Client/RegisterGameServer.cpp
+END
+Settings.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/46221/FalconLobby-Client/Settings.h
+END
+Falcon.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/46221/FalconLobby-Client/Falcon.h
+END
+NetUtils.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/46221/FalconLobby-Client/NetUtils.h
+END
+FalconLobby.rc
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/46221/FalconLobby-Client/FalconLobby.rc
+END
+ServerPublicInfoDlg.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/46221/FalconLobby-Client/ServerPublicInfoDlg.h
+END
+Client.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/46221/FalconLobby-Client/Client.cpp
+END
+HTTPClient.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/46221/FalconLobby-Client/HTTPClient.cpp
+END
+INIFile.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/46221/FalconLobby-Client/INIFile.cpp
+END
+FalconLobbyDlg.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/46221/FalconLobby-Client/FalconLobbyDlg.cpp
+END
+PhoneBook.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/46221/FalconLobby-Client/PhoneBook.cpp
+END
+ProcUtils.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/46221/FalconLobby-Client/ProcUtils.h
+END
+stdafx.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/46221/FalconLobby-Client/stdafx.cpp
+END
+FalconLobby.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/46221/FalconLobby-Client/FalconLobby.cpp
+END
+resource.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/46221/FalconLobby-Client/resource.h
+END
+ServerDlg.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/46221/FalconLobby-Client/ServerDlg.cpp
+END
+help.htm
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/46221/FalconLobby-Client/help.htm
+END
+LANGameAnnounce.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/46221/FalconLobby-Client/LANGameAnnounce.h
+END
+Settings.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/46221/FalconLobby-Client/Settings.cpp
+END
+Falcon.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/46221/FalconLobby-Client/Falcon.cpp
+END
+FalconLobby.sln
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/46221/FalconLobby-Client/FalconLobby.sln
+END
+NetUtils.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/46221/FalconLobby-Client/NetUtils.cpp
+END
+Mutex.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/46221/FalconLobby-Client/Mutex.h
+END
+ServerPublicInfoDlg.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/46221/FalconLobby-Client/ServerPublicInfoDlg.cpp
+END
+RegisterGameServer.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/46221/FalconLobby-Client/RegisterGameServer.h
+END
+FalconLobby.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/46221/FalconLobby-Client/FalconLobby.vcproj
+END
+revision_history.txt
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/46221/FalconLobby-Client/revision_history.txt
+END
+importedIPs
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/46221/FalconLobby-Client/importedIPs
+END
+Client.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/46221/FalconLobby-Client/Client.h
+END
+HTTPClient.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/46221/FalconLobby-Client/HTTPClient.h
+END
+installer_readme.rtf
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/46221/FalconLobby-Client/installer_readme.rtf
+END
+ProcUtils.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/46221/FalconLobby-Client/ProcUtils.cpp
+END
+INIFile.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/46221/FalconLobby-Client/INIFile.h
+END
+FalconLobbyDlg.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/46221/FalconLobby-Client/FalconLobbyDlg.h
+END
+PhoneBook.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/46221/FalconLobby-Client/PhoneBook.h
+END
+LANGameAnnounce.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/46221/FalconLobby-Client/LANGameAnnounce.cpp
+END
+const.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/46221/FalconLobby-Client/const.h
+END
+settings.ini
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/46221/FalconLobby-Client/settings.ini
+END
